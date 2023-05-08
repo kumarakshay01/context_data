@@ -4,6 +4,6 @@
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 10.1.0.4. Set the 'ServerName' directive globally to suppress this message
 [Mon May 08 04:57:02.105177 2023] [mpm_event:notice] [pid 782:tid 139835977189248] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
 [Mon May 08 04:57:02.105187 2023] [core:notice] [pid 782:tid 139835977189248] AH00094: Command line: '/usr/sbin/apache2'
-[Mon May 08 05:05:01.385263 2023] [mpm_event:notice] [pid 782:tid 139835977189248] AH00492: caught SIGWINCH, shutting down gracefully
+[Mon May 08 05:05:01.385263 2023] [mpm_event:notice] [pid 782:tid 1398359789248] AH00492: caught SIGWINCH, shutting down gracefully
 [Mon May 08 05:05:25.052894 2023] [mpm_event:notice] [pid 1393:tid 139913095419776] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
 [Mon May 08 05:05:25.053007 2023] [core:notice] [pid 1393:tid 139913095419776] AH00094: Command line: '/usr/sbin/apache2'
