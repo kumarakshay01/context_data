@@ -1,0 +1,312 @@
+CASE STUDY
+
+Cloud
+Microservices
+Powering
+Transformation
+for the Largest
+Telecom &
+Network
+Services Provider
+in Africa
+
+Overview
+Enterprises are driving cloud transformation journey by adopting cloud native services offered by different
+cloud providers. Microservices is one of the core components in this transformation journey. Combined with
+cloud native services like autoscaling, high available deployment pattern, container based microservices
+(running on Kubernetes) is one of the patterns for running applications on cloud that gives scalability, reliability
+and resource efficiency resulting in cost optimization.
+
+Client Background
+and Challenge
+One of the largest African
+
+Complex and time-consuming: Deploying Kubernetes cluster for
+different BUs took several days, resulting in loss of time/business
+opportunity and slow innovation and adoption in the organization
+
+telecommunication and
+network services provider
+that offers voice, messaging,
+
+Security: The manual process often led to clusters not adhering to
+compliance and security standards resulting in security breaches
+
+data, and converged services
+to millions of users in that
+
+High Service Cost: Non-standard cluster sizing resulted
+in higher cost
+
+geography in their cloud
+transformation journey. The
+client was facing the
+
+Frequent SLA Breaches: Ad hoc sizing, process, and non-standard
+deployment methods resulted in frequent SLA breaches
+
+following challenges:
+
+Poor Productivity: Dependency on the Infra support team to
+deploy clusters resulted in idle time for developers impacting the
+productivity of the teams working on the solution
+
+Solution Provided
+Tech Mahindra leveraged AWS Cloud to implement this solution. This included setting up a self-service shared
+platform for EKS using AWS Service Catalog and AWS CloudFormation, integrated with AWS Control Tower
+service to provide cohesive platform that is offered as a service to internal business units. Standardized EKS
+solution architecture blueprint was deﬁned based on customer requirements and AWS well architected design
+principles to be consumed as a service by different business units.
+
+VPC
+
+Calico Virtual Network
+Private
+Subnet
+
+Autoscaling
+Group
+
+KMS
+
+Namespace 1
+
+Client
+
+3rd party
+SAML
+Provider
+
+Network Load
+Balancer
+
+SAML2.0
+
+3rd party
+Ingress controller
+
+POD1
+
+POD2
+
+ACM
+
+File
+system
+
+Private Subnet
+
+RBAC
+
+Amazon CloudWatch
+
+EKS Control Plane
+
+Namespace 2
+
+POD1
+
+Instance Proﬁle
+
+AWS Service Catalog
+
+POD2
+
+Management Node
+
+ECR
+
+3rd party Monitoring
+& Dashboard Tool
+
+AWS CloudFormation
+
+External DNS
+
+CoreDNS
+
+Route 53
+
+Lambda
+Function
+
+EC2
+
+Fig. 1: Amazon EKS – Managed Kubernetes Solution Architecture
+
+AWS Systems
+Manager
+
+Amazon EKS provides ability to
+run Kubernetes based
+application in the AWS cloud.
+Amazon EKS helps achieve
+scalability and secure the EKS
+clusters along with patching,
+updating of the nodes on a need
+basis. The above pattern was
+common amongst different BUs
+across the customer business.
+Tech Mahindra implemented a
+strategy that enabled a
+self-service shared platform for
+EKS. This was implemented using
+AWS Service Catalog and AWS
+CloudFormation, integrated with
+AWS Control Tower to provide
+cohesive platform that is offered
+as a service to the business units.
+
+Business Account
+
+Service Catalog
+EKS Portfolio
+
+SC Provisioned
+Products
+
+AWS Service
+Catalog
+
+Product
+
+Business Account
+
+SC Provisioned
+Products
+
+Master Account
+AWS Service
+Catalog
+Product
+Admin
+
+Business
+Users
+
+AWS Service Catalog
+
+Product
+
+Business Account
+
+SC Provisioned
+Products
+
+AWS Service
+Catalog
+
+Business Account
+
+SC Provisioned
+Products
+
+Product
+
+AWS Service
+Catalog
+
+Fig. 2: AWS Service Catalog and IAC using CloudFormation
+
+This architecture diagram depicts how AWS Service Catalog based hub and spoke model was implemented
+using AWS Control Tower. The portfolio is created in the management account and then shared to the
+member/linked accounts as service catalog products. AWS Service Catalog and AWS CloudFormation was
+integrated with AWS Control Tower to provide cohesive platform that is offered as a service to the business units
+
+AWS Service Catalog Portfolio
+Mandatory: AWS Service Catalog Products
+• Product 1 : Amazon EKS cluster role
+• Product 2 : Amazon EKS cluster creation
+• Product 3 : Amazon EFS creation
+• Product 4 : EKS Cluster Management Server Creation
+• Product 5 : Amazon EKS Automation
+• Product 6 : CNI Deployment
+• Product 7 : Amazon EKS Managed Group Creation
+
+AWS Service
+Catalog
+
+• Product 8 : Resource Deployment using AWS Systems Manager
+• Product 9 : Namespace Creation
+• Product 10 : Amazon ECR repository creation
+
+Service
+Provisioned
+Product
+
+Optional: AWS Service Catalog Products
+• Product 11 : AWS Fargate NGINX Ingress controller
+• Product 12 : AWS Fargate Proﬁle Creation
+• Product 13 : Amazon API Gateway
+• Product 14 : AWS Certiﬁcate Manager Private CA
+• Product 15 : Amazon EKS Management Server Recovery
+
+Fig. 3: AWS Service Catalog
+
+A self-service shared EKS platform was made available across the organization. This enabled to manage
+product catalogs (one or more IT services) that adhere to organizations governance and compliance
+requirements in a self-service consumption model by different application teams within the organization.
+The list of service catalog products created under one portfolio and the function of each product as shown.
+
+Business Continuity and Impact
+Reduction of deployment cycle
+and service creation time from
+days to minutes
+
+Fast, efficient, and standard
+development process – lead time
+optimization
+
+Implement a common self-service
+Amazon EKS deployment pattern
+which is standardized across
+organization, incorporating best
+practices, and in line with compliance
+and security standards
+
+Increased productivity, reduced
+operational cost and Improved
+user satisfaction
+
+Reduction in AWS infrastructure cost
+Increased reliability and scalability as
+compared to on-premises datacenter
+Shared service platform to
+automatically include security and
+operational best practices into every
+application across Bus
+Reduced operational overhead, cost
+and risk associated with managing
+EKS control plane
+Includes a standardized approach
+for monitoring to ease
+troubleshooting of issues
+
+Reduced IT expense; improved
+bottom line
+Reduced downtime; ﬂexible to
+demand load – Reduction in expense,
+improvement in client experience
+Standardized process catering
+to compliance and security
+requirements
+Ease in governance resulted in more
+focus on business opportunities
+Improved performance and user
+experience by minimizing downtime
+and service degradation with
+proactive incident detection
+
+For more information, please write to CloudNXTMarketing@TechMahindra.com
+
+www.youtube.com/user/techmahindra09
+www.facebook.com/techmahindra
+www.twitter.com/tech_mahindra
+www.linkedin.com/company/tech-mahindra
+www.techmahindra.com
+top.marketing@techmahindra.com
+
+Copyright © Tech Mahindra 2022. All Rights Reserved.
+Disclaimer. Brand names, logos and trademarks used herein remain the property of their respective owners.
+
+
