@@ -1,9 +1,32 @@
-[Mon May 08 04:57:01.809700 2023] [mpm_event:notice] [pid 782:tid 139835977189248] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
-[Mon May 08 04:57:01.809827 2023] [core:notice] [pid 782:tid 139835977189248] AH00094: Command line: '/usr/sbin/apache2'
-[Mon May 08 04:57:02.071454 2023] [mpm_event:notice] [pid 782:tid 139835977189248] AH00493: SIGUSR1 received.  Doing graceful restart
+[Fri May 16 01:46:23 2023] [error] [client 1.2.3.4] Directory index forbidden by rule: /home/test/
+[Fri Dec 16 01:54:34 2022] [error] [client 1.2.3.4] Directory index forbidden by rule: /apache/web-data/test2
+[Fri Dec 16 02:25:55 2022] [error] [client 1.2.3.4] Client sent malformed Host header
+[Tue May 01 11:06:48.658155 2023] [error] [client 1.2.3.4] user test: authentication failure for "/~dcid/test1": Password Mismatch
+[Tue May 01 11:06:48.658155 2023] [error] [client 1.2.3.4] user test: authentication failure for "/~dcid/test1": Password Mismatch
+[Tue May 01 11:06:48.658155 2023] [error] [client 1.2.3.4] user test: authentication failure for "/~dcid/test1": Password Mismatch
+[Tue May 01 11:06:48.658155 2023] [error] [client 1.2.3.4] user test: authentication failure for "/~dcid/test1": Password Mismatch
+[Mon Dec 19 23:02:01 2022] [error] [client 1.2.3.4] user test: authentication failure for "/~dcid/test1": Password Mismatch
+[Tue Mar 08 10:34:21 2005] [error] (11)Resource temporarily unavailable: fork: Unable to fork new process
+[Tue Mar 08 10:34:31 2005] [error] (11)Resource temporarily unavailable: fork: Unable to fork new process
+[Tue May 09 10:27:08.927177 2023] [mpm_event:notice] [pid 800:tid 140076883691392] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Tue May 09 10:27:08.927308 2023] [core:notice] [pid 800:tid 140076883691392] AH00094: Command line: '/usr/sbin/apache2'
+[Tue May 09 10:27:09.187986 2023] [mpm_event:notice] [pid 800:tid 140076883691392] AH00493: SIGUSR1 received.  Doing graceful restart
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 10.1.0.4. Set the 'ServerName' directive globally to suppress this message
-[Mon May 08 04:57:02.105177 2023] [mpm_event:notice] [pid 782:tid 139835977189248] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
-[Mon May 08 04:57:02.105187 2023] [core:notice] [pid 782:tid 139835977189248] AH00094: Command line: '/usr/sbin/apache2'
-[Mon May 08 05:05:01.385263 2023] [mpm_event:notice] [pid 782:tid 1398359789248] AH00492: caught SIGWINCH, shutting down gracefully
-[Mon May 08 05:05:25.052894 2023] [mpm_event:notice] [pid 1393:tid 139913095419776] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
-[Mon May 08 05:05:25.053007 2023] [core:notice] [pid 1393:tid 139913095419776] AH00094: Command line: '/usr/sbin/apache2'
+[Tue May 09 10:27:09.236800 2023] [mpm_event:notice] [pid 800:tid 140076883691392] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Tue May 09 10:27:09.236808 2023] [core:notice] [pid 800:tid 140076883691392] AH00094: Command line: '/usr/sbin/apache2'
+[Tue May 09 10:34:44.407660 2023] [mpm_event:notice] [pid 800:tid 140076883691392] AH00492: caught SIGWINCH, shutting down gracefully
+[Tue May 09 10:34:44.539673 2023] [mpm_event:notice] [pid 1307:tid 140491732146048] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Tue May 09 10:34:44.539818 2023] [core:notice] [pid 1307:tid 140491732146048] AH00094: Command line: '/usr/sbin/apache2'
+[Tue May 09 10:37:41.300415 2023] [mpm_event:notice] [pid 1307:tid 140491732146048] AH00492: caught SIGWINCH, shutting down gracefully
+[Tue May 09 10:37:41.375280 2023] [mpm_event:notice] [pid 1425:tid 140357843515264] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Tue May 09 10:37:41.375395 2023] [core:notice] [pid 1425:tid 140357843515264] AH00094: Command line: '/usr/sbin/apache2'
+[Tue May 09 10:56:39.486303 2023] [mpm_event:notice] [pid 1425:tid 140357843515264] AH00492: caught SIGWINCH, shutting down gracefully
+[Tue May 09 10:56:39.552069 2023] [mpm_event:notice] [pid 3058:tid 140662619404160] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Tue May 09 10:56:39.552185 2023] [core:notice] [pid 3058:tid 140662619404160] AH00094: Command line: '/usr/sbin/apache2'
+[Tue May 09 11:06:48.523862 2023] [mpm_event:notice] [pid 3058:tid 140662619404160] AH00492: caught SIGWINCH, shutting down gracefully
+[Tue May 09 11:06:48.658040 2023] [mpm_event:notice] [pid 4832:tid 140401432655744] AH00489: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Tue May 09 11:06:48.658155 2023] [core:notice] [pid 4832:tid 140401432655744] AH00094: Command line: '/usr/sbin/apache2'
+[Tue May 09 11:06:48.658155 2023] [error] [client 1.2.3.4] user test: authentication failure for "/~dcid/test1": Password Mismatch
+[Tue May 09 11:06:48.658155 2023] [error] (11)Resource temporarily unavailable: fork: Unable to fork new process
+[Tue May 09 11:06:48.658155 2023] [error] (11)Resource temporarily unavailable: fork: Unable to fork new process
+[Tue May 09 11:06:48.523862 2023] [mpm_event:notice] [pid 3058:tid 140662619404160] AH00492: caught SIGWINCH, shutting down gracefully                                                                       
